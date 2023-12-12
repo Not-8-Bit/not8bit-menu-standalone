@@ -1,5 +1,5 @@
 name 'Holiday Menu System'
-author 'Not 8 Bit Holiday'
+author 'Not 8 Bit - Holiday'
 version 'v1.0.0'
 
 description 'Menu system with unlimited text rows amd image capability for buttons and header.'

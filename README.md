@@ -1,6 +1,14 @@
 # not8bit-menu
 Menu System for FiveM
 
+# To Do:
+```
+Update text layout
+Add ability to change theme easier if doesn't bloat code for no reason
+Add QB Core command functionality back under boolean control
+ESX?
+```
+
 ## EXAMPLE MENU
 ```
 RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
@@ -68,6 +76,7 @@ RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
 end)
 ```
 # License
+```
     Not 8 Bit Menu
     Copyright (C) 2023  Ronald Nelson
 
@@ -83,11 +92,13 @@ end)
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```
+# This is a modified version of:
 
-``
 # NH Context
-    This is a modified version of **[NH Context](https://forum.cfx.re/t/no-longer-supported-standalone-nerohiro-s-context-menu-dynamic-event-firing-menu/2564083)** by **[NeroHiro](https://github.com/nerohiro)**
-amd
+**[NH Context](https://forum.cfx.re/t/no-longer-supported-standalone-nerohiro-s-context-menu-dynamic-event-firing-menu/2564083)** by **[NeroHiro](https://github.com/nerohiro)**
+
+# and
 
 # QB-Menu 
 **https://github.com/qbcore-framework/qb-menu/tree/main**
