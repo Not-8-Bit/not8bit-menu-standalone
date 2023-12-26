@@ -78,7 +78,7 @@ end)
 # License
 ```
     Not 8 Bit Menu
-    Copyright (C) 2023  Ronald Nelson
+    Copyright (C) 2023  Holiday
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
