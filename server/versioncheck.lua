@@ -1,7 +1,7 @@
 if NV.VersionCheck then
     local function VersionLog(_type, log)
         local color = _type == 'success' and '^2' or '^1'
-        print(('^8[not8bit-vending]%s %s^7'):format(color, log))
+        print(('^8[not8bit-menu]%s %s^7'):format(color, log))
     end
 
     local function CheckMenuVersion()
@@ -14,9 +14,9 @@ if NV.VersionCheck then
             VersionLog('success', ('Current Version: %s'):format(currentVersion))
             VersionLog('success', ('Latest Version: %s'):format(text))
             if text:gsub("%s+", "") == currentVersion:gsub("%s+", "") then
-                VersionLog('success', 'You are running the latest version of not8bit-vending by Holiday.')
+                VersionLog('success', 'You are running the latest version of not8bit-menu by Holiday.')
             else
-                VersionLog('error', ('You are currently running an outdated version of not8bit-vending, please update to version %s'):format(text))
+                VersionLog('error', ('You are currently running an outdated version of not8bit-menu, please update to version %s'):format(text))
             end
         end)
     end
