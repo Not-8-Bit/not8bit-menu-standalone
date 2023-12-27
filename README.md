@@ -1,6 +1,10 @@
 # not8bit-menu
 Menu System for FiveM
 
+# Discord: 
+
+**https://discord.gg/syG8ZpZ6je**
+
 # To Do:
 ```
 Update text layout
@@ -40,7 +44,7 @@ RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
                 "SUb Headers",
                 "You can add a lot",
                 "You limit is what looks good.",
-                "The code should accept unlimited rowsa of text"
+                "The code should accept unlimited rows of text"
             },
             params = {
                 event = "not8bit-menu:client:testMenu2",
@@ -52,6 +56,7 @@ RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
         {
             header = "Sub Menu Button",
             messages = {
+                "Something relevant",
                 "Something relevant"
             },
             disabled = true,
@@ -65,6 +70,7 @@ RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
         {
             header = "Sub Menu Button",
             messages = {
+                "Something relevant",
                 "Something relevant"
             },
             isDisabled = true,
@@ -79,6 +85,7 @@ RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
         {
             header = "Sub Menu Button",
             messages = {
+                "Something relevant",
                 "Something relevant"
             },
             disabled = true,
@@ -111,11 +118,6 @@ end)
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
 # This is a modified version of:
-
-# NH Context
-**[NH Context](https://forum.cfx.re/t/no-longer-supported-standalone-nerohiro-s-context-menu-dynamic-event-firing-menu/2564083)** by **[NeroHiro](https://github.com/nerohiro)**
-
-# and
 
 # QB-Menu 
 **https://github.com/qbcore-framework/qb-menu/tree/main**
