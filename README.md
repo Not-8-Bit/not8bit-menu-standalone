@@ -10,7 +10,6 @@ Menu System for FiveM
 Update text layout
 Add ability to change theme easier
 Add QB Core command functionality back under boolean control
-ESX?
 ```
 
 # Dependencies
@@ -25,9 +24,9 @@ None
 
 # Features 
 ```
+Standalone.
 Unlimited text rows. The limit is what looks good.
 Image support that isn't tied to an item.
-Standalone, removed qb-core command functionality for now. 
 ```
 
 ## EXAMPLE MENU
