@@ -4,9 +4,26 @@ Menu System for FiveM
 # To Do:
 ```
 Update text layout
-Add ability to change theme easier if doesn't bloat code for no reason
+Add ability to change theme easier
 Add QB Core command functionality back under boolean control
 ESX?
+```
+
+# Dependencies
+```
+None
+```
+
+# Bugs
+```
+None
+```
+
+# Features 
+```
+Unlimited text rows. The limit is what looks good.
+Image support that isn't tied to an item.
+Standalone, removed qb-core command functionality for now. 
 ```
 
 ## EXAMPLE MENU
@@ -71,14 +88,14 @@ RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
             }
         },
     }
-    exports['not8bit-menu']:openMenu(containerMenu) --Use if you want to wait for this to finish opening
-	TriggerEvent('not8bit-menu:client:openMenu', containerMenu) -- Use if you want the script to keep going while the menu opens
+    exports['not8bit-menu']:openMenu(containerMenu) --Use only one
+	TriggerEvent('not8bit-menu:client:openMenu', containerMenu) -- Use only one
 end)
 ```
 # License
 ```
     Not 8 Bit Menu
-    Copyright (C) 2023  Holiday
+    Copyright (C) 2023  lllHolidaylll
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
