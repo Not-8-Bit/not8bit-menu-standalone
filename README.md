@@ -1,4 +1,4 @@
-# not8bit-menu
+# not8bit-menu - Standalone
 Menu System for FiveM
 
 # Discord: 
@@ -100,7 +100,7 @@ end)
 ```
 # License
 ```
-    Not 8 Bit Menu
+    Not 8 Bit Menu - Standalone
     Copyright (C) 2023  lllHolidaylll
 
     This program is free software: you can redistribute it and/or modify
