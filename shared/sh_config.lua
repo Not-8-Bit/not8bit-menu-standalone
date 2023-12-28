@@ -1,2 +1,2 @@
-NM = {}
-NM.VersionCheck = true --set to false to turn of version check
+NMS = {}
+NMS.VersionCheck = true --set to false to turn of version check

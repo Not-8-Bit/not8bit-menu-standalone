@@ -1,6 +1,6 @@
 name 'Not 8 Bit Menu - Standalone'
 author 'Not 8 Bit - lllHolidaylll'
-version 'v1.0.3'
+version 'v1.0.4'
 
 description 'Menu system with unlimited text rows amd image capability for buttons and header.'
 
