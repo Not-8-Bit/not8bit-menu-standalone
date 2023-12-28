@@ -7,53 +7,42 @@ Menu System for FiveM
 
 # To Do:
 ```
-
 Update text layout
 Add ability to change theme easier
 Add QB Core command functionality back under boolean control
-
 ```
 
 # Dependencies
 ```
-
 None
-
 ```
 
 # Bugs
 ```
-
 None
-
 ```
 
 # Notice
 ```
-
 This was designed and tested on a QB-Core server. 
 I setup am ESX server for the first time in a little over two and a half years the other day and tested it on there. The menu opened without issue.
 That is as far as I got with ESX.
-I do not have experience with other frameworks but I imagine it will work there is it can load the resource.
+I do not have experience with other frameworks but I imagine it will work there if it can load the resource.
 
 The version checker is only in scripts I am actively working on. I will remove it when I am done with all planned updates.
 You can disable the version checker in the shared/sh_config.lua
-
 ```
 
 # Features 
 ```
-
 Standalone.
 Unlimited text rows. The limit is what looks good.
 Image support that isn't tied to an item.
-
 ```
 
 # Using The Menu
 ## Step one
 ```
-
 Change 
 
 exports['qb-menu']
@@ -61,11 +50,9 @@ exports['qb-menu']
 to
 
 exports['not8bit-menu-standalone']
-
 ```
 ## Step Two
 ```
-
 Then you have to add your images to the 'html/images/' folder.
 If you add anything other than a .jpg or a .png you will need to add it to the fxmanifest.lua below the others or it will not work.
 Use globbing to make your life easier:
@@ -75,14 +62,11 @@ Use globbing to make your life easier:
 ```
 ## Step Three
 ```
-
-Then you have to add or change this line 'icon = 'image.png',' where you have your menu events defined in each of your resources.
-
+Then you have to add or change this line 'icon = 'image.png',' where you have your menu events defined in each of your resources
 ```
 
 ## EXAMPLE MENU
 ```
-
 RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
     local containerMenu = {
         {
@@ -156,7 +140,6 @@ end)
 
 ```
 # License
-
 ```
     Not 8 Bit Menu - Standalone
     Copyright (C) 2023  lllHolidaylll
@@ -173,7 +156,6 @@ end)
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 ```
 # This is a modified version of:
 
