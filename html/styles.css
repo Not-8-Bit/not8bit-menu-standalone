@@ -1,8 +1,19 @@
+:root {
+  --primary-color: rgba(63, 81, 119, 0.89); /*Primary color of the menu buttons */
+  --hover-color: rgba(41, 66, 121, 0.89); /* Color on hover */
+  --disabled-color: rgba(102, 102, 102, 0.9); /* You can disable a button. This is the color when disabled */
+  --scroll-inset-color: rgba(56, 73, 109, 0.89); /* If the menu gets big enough, it will add a scrollbar. This is the inset color of the bar */
+  --scroll-thumb-color: #171717e6; /* Color of the thumb/handle of the scrollbar */
+  --box-shadow-color: #000000; /* There is a box shadow around each header/button. This is that color */
+  --text-color: #ffffff; /* Text color */
+  --font-family: "Times New Roman", sans-serif; /* Font type */
+  --font-weight: 100; /* How thick the text is */
+}
+
+
 * {
-  padding: 0;
-  margin: 0;
-  font-family: "Times New Roman", sans-serif;
-  font-weight: 300;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
 }
 
 @media (width: 3840px) and (height: 2160px) {
@@ -39,9 +50,8 @@
     position: relative;
     justify-content: left;
     overflow: wrap;
-    color: white;
+    color: var(--text-color);
     font-size: 25px !important;
-    font-weight: 400;
     overflow: hidden;
   }
 }
@@ -51,12 +61,12 @@
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(56, 73, 109, 0.89);
+  box-shadow: inset 0 0 5px var(--scroll-inset-color);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #171717e6;
+  background: var(--scroll-thumb-color);
   border-radius: 10px;
 }
 
@@ -74,6 +84,7 @@
   flex-direction: row !important;
   gap: 10px;
 }
+
 .title {
   cursor: default;
   gap: 10px;
@@ -97,8 +108,8 @@ body {
 .button {
   width: auto;
   height: 10%;
-  background: rgba(63, 81, 119, 0.89);
-  color: white;
+  background: var(--primary-color);
+  color: var(--text-color);
   margin: auto;
   position: relative;
   top: 10%;
@@ -108,7 +119,7 @@ body {
   border-radius: 0.15rem;
   display: flex;
   flex-direction: column;
-  box-shadow: 0rem 0rem 0.5rem 0.05rem #000000;
+  box-shadow: 0rem 0rem 0.5rem 0.05rem var(--box-shadow-color);
   cursor: pointer;
 }
 
@@ -121,14 +132,14 @@ body {
 }
 
 .button:hover {
-  background-color: rgba(41, 66, 121, 0.89);
+  background-color: var(--hover-color);
 }
 
 .title {
   width: auto;
   height: 10%;
-  background: rgba(56, 73, 109, 0.89);
-  color: white;
+  background: var(--primary-color);
+  color: var(--text-color);
   margin: auto;
   position: relative;
   top: 10%;
@@ -146,7 +157,7 @@ body {
 }
 
 .disabled {
-  background: rgba(102, 102, 102, 0.9) !important;
+  background: var(--disabled-color) !important;
   cursor: default;
 }
 
@@ -164,8 +175,7 @@ div > .header {
   position: relative;
   justify-content: left;
   overflow: wrap;
-  color: white;
+  color: var(--text-color);
   font-size: 0.9rem;
-  font-weight: 400;
   overflow: hidden;
 }

@@ -8,7 +8,7 @@ Menu System for FiveM
 # To Do:
 ```
 Update text layout
-Add ability to change theme easier
+Add ability to change theme easier -- DONE v1.0.5 12/28/23
 Add QB Core command functionality back under boolean control
 ```
 
